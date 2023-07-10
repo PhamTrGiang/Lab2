@@ -6,29 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     android:padding="10dp">
 
-    <Button
-        android:onClick="bai1"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bài 1"/>
+        android:textSize="20dp"
+        android:text="Thể tích khối lập phương" />
+    <EditText
+        android:id="@+id/edCanh"
+        android:hint="Cạnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <Button
-        android:onClick="bai2"
+        android:id="@+id/btnSend"
+        android:text="Sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bài 2"/>
-    <Button
-        android:onClick="bai3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bài 3"/>
-    <Button
-        android:onClick="bai4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bài 4"/>
+        android:layout_gravity="left"
+        android:textSize="17dp"
+        android:text="Result"/>
 
 
 </LinearLayout>

@@ -26,6 +26,14 @@ public class MainActivity extends AppCompatActivity  {
         Intent i = new Intent(getBaseContext(), Bai2Activity.class);
         startActivity(i);
     }
+    public void bai3(View v){
+        Intent i = new Intent(getBaseContext(), Bai3Activity.class);
+        startActivity(i);
+    }
+    public void bai4(View v){
+        Intent i = new Intent(getBaseContext(), Bai4Activity.class);
+        startActivity(i);
+    }
 
 
 }

@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Bai2Activity extends AppCompatActivity implements View.OnClickListener {
-    public static final String SERVER_NAME = "http://26.52.224.103/giang_ph28126/rectangle_POST.php";
+    public static final String SERVER_NAME = "http://"+API.ip+"/giang_ph28126/rectangle_POST.php";
     private EditText edWidth,edLength;
     private Button btnSend;
     private TextView tvResult;

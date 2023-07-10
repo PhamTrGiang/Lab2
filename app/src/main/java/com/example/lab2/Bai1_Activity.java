@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Bai1_Activity extends AppCompatActivity implements View.OnClickListener{
 
-    public static final String SERVER_NAME = "http://26.52.224.103/giang_ph28126/student_GET.php";
+    public static final String SERVER_NAME = "http://"+API.ip+"/giang_ph28126/student_GET.php";
     private EditText edName, edScore;
     private Button btnSend;
     private TextView tvResult;
